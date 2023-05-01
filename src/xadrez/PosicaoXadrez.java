@@ -31,6 +31,7 @@ public class PosicaoXadrez {
 		return new PosicaoXadrez((char)('a' - posicao.getColuna()), 8 - posicao.getLinha());
 	}
 	
+	@Override
 	public String toString() {
 		return "" + coluna + linha;
 	}
